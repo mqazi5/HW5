@@ -1,6 +1,6 @@
 /******************************************************************
  *
- *   Mohammad Qazk / SECTION 001
+ *   Mohammad Qazi / SECTION 001
  *
  *   Note, additional comments provided throughout this source code
  *   is for educational purposes
