@@ -224,7 +224,15 @@ class BloomFilter {
         // this class on available methods. You can also see how method 'add'
         // in this class uses the object.
 
-        return false;
+          for (int i = 0; i < noHashes; i++) {
+            long hc = hashCode(s, i);
+            int bitNo = (int) (hc) & this.hashMask;
+            if (!data.get(bitNo)) {
+                return false; 
+            }
+        }
+        
+        return true;
     }
 
 
